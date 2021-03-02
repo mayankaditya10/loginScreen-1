@@ -1,0 +1,105 @@
+.mainDiv {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+	justify-content: space-around;
+}
+.leftDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #E5E5E5;
+    justify-content: center;
+    flex: .75;
+}
+.rightDiv {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+    flex: 1;
+}
+.rightMianDiv{
+    display: flex;
+    flex-direction: column;
+    /* padding: 5%; */
+    height: 100%;
+    width: 100%;
+}
+
+.upperDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex:1;
+    justify-content: flex-start;
+}
+.middleDiv{
+    display: flex;
+    margin: "20px";
+    flex-direction: column;
+    width:"100%";
+    /* flex-wrap: wrap; */
+    flex:5;
+    justify-content: space-between;
+}
+.lowerDiv{
+    display: flex;
+    flex:1;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.loginMainDiv {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+	justify-content: space-around;
+}
+
+.loginLeftDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #E5E5E5;
+    justify-content: center;
+    flex: 1;
+}
+.loginRightDiv {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+    flex: 1;
+}
+.loginRightDivContaint {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 25%;
+    height: 70%;
+    width:70%;
+    margin: 15%;
+    flex: 1;
+}
+.contentTopDiv{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contentMiddleDiv{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: space-around;
+}
+.contentBottomDiv{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
